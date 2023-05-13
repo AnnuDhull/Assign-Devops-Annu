@@ -2,11 +2,11 @@ name: nameWorkflow2
 
 on:
   
-  push:
-    branches: [ "main" ]
+  # push:
+  #   branches: [ "main" ]
 
   
-#   workflow_dispatch:
+  workflow_dispatch:
 
 
 jobs:
