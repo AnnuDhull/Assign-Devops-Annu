@@ -1,0 +1,31 @@
+name: nameWorkflow2
+
+on:
+  
+  push:
+    branches: [ "main" ]
+
+  
+#   workflow_dispatch:
+
+
+jobs:
+  
+  Annu2job-built:
+    
+    runs-on: windows-latest
+
+    
+    steps:
+      
+      - uses: actions/checkout@v3
+
+     
+      - name: Run a one-line script
+        run: echo Heyyy!!! I am on VSCODE .
+
+      
+      - name: Run a multi-line script
+        run: |
+          echo I am easy to use ,
+          echo Try to work on !!!!!!! .
